@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Atendimento de Maquiagem</title>
+    <link rel="stylesheet" href="atendimento.css">
+</head>
+<body>
+    <h1>Atendimento de Maquiagem</h1>
+
+    <p>Seja bem-vindo(a) ao nosso espaço de beleza! Aqui oferecemos atendimento personalizado em maquiagem para todas as ocasiões — festas, casamentos, formaturas e muito mais.</p>
+
+    <h2>Serviços Disponíveis</h2>
+    <ul>
+        <li>Maquiagem Social</li>
+        <li>Maquiagem para Noivas</li>
+        <li>Maquiagem Artística</li>
+        <li>Design de Sobrancelhas</li>
+        <li>Limpeza e preparação de pele</li>
+    </ul>
+
+    <h2>Agende seu Atendimento</h2>
+    <form action="#" method="post">
+        <label for="nome">Nome:</label><br>
+        <input type="text" id="nome" name="nome" required><br><br>
+
+        <label for="email">E-mail:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="telefone">Telefone:</label><br>
+        <input type="tel" id="telefone" name="telefone" placeholder="(00) 00000-0000" required><br><br>
+
+        <label for="servico">Tipo de Maquiagem:</label><br>
+        <select id="servico" name="servico" required>
+            <option value="">Selecione</option>
+            <option value="social">Maquiagem Social</option>
+            <option value="noiva">Maquiagem para Noivas</option>
+            <option value="artistica">Maquiagem Artística</option>
+            <option value="sobrancelha">Design de Sobrancelhas</option>
+        </select><br><br>
+
+        <label for="data">Data do Atendimento:</label><br>
+        <input type="date" id="data" name="data" required><br><br>
+
+        <label for="mensagem">Observações:</label><br>
+        <textarea id="mensagem" name="mensagem" rows="4" cols="30" placeholder="Conte-nos suas preferências de maquiagem..."></textarea><br><br>
+
+        <input type="submit" value="Agendar">
+        <input type="reset" value="Limpar">
+    </form>
+    <header>
+        <a href="maquiagem.html"class="btn-voltar">
+            <span class="setinha"></span>
+            voltar
+       </a>
+
+    <h2>Produtos Recomendados</h2>
+    <div class="produto">
+        <h3>Base Líquida Matte</h3>
+        <img src="base.jpg" alt="Base líquida" width="250">
+        <p>Alta cobertura e toque seco, ideal para todos os tipos de pele.</p>
+        <button>Comprar Agora</button>
+        <button>Adicionar ao Carrinho</button>
+    </div>
+
+    <div class="produto">
+        <h3>Paleta de Sombras Glam</h3>
+        <img src="paleta2.jpg" alt="Paleta de sombras" width="250">
+        <p>24 cores incríveis para criar looks sofisticados e modernos.</p>
+        <button>Comprar Agora</button>
+        <button>Adicionar ao Carrinho</button>
+    </div>
+
+    <h2>Contato</h2>
+    <p><strong>WhatsApp:</strong> (11) 98888-7777</p>
+    <p><strong>E-mail:</strong> atendimento@maquiagemperfeita.com.br</p>
+
+    <hr>
+    <p><em>© 2025 Maquiagem Perfeita - Todos os direitos reservados.</em></p>
+</body>
+</html>
+</header>

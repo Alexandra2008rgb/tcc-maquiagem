@@ -1,0 +1,55 @@
+.conteudo{
+    padding: 40px;
+    background-color: rgb(179, 137, 218);
+    font-family: Arial, sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+.introducao {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.introducao h1 {
+    font-size: 2em;
+    margin-bottom: 30px;
+    color: rgb(0, 0, 0);
+}
+.introducao p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+.introducao img {
+    width: 400px;
+    border-radius: 10px;
+}
+.beneficios {
+    margin-bottom: 40px;
+}
+.beneficios h2 {
+    color: darkmagenta;
+    margin-bottom: 15px;
+}
+.beneficios ul {
+    list-style: none;
+    padding: 0;
+}
+.beneficios li {
+    margin: 10px 0;
+    font-size: 1.1em;
+}
+.beneficios i {
+    color: darkorchid;
+    margin-right: 10px;
+    
+}
+.card a {
+    text-decoration: none;
+    color:aliceblue;
+    background: #b4156c;
+    padding: 8px 15px;
+    border-radius: 6px;
+    transition: background 0.3s;
+}
+.card a:{
+    background:#1b5e20;
+}
